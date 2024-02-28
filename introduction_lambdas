@@ -1,0 +1,4 @@
+fun containsEven(collection: Collection<Int>): Boolean =
+        collection.any { it % 2 == 0 }
+
+//Fungsi containsEven mengembalikan nilai true jika terdapat setidaknya satu bilangan genap dalam collection, dan false jika tidak.
