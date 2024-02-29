@@ -1,0 +1,14 @@
+import kotlin.random.Random as KRandom
+import java.util.Random as JRandom
+
+fun useDifferentRandomClasses(): String {
+    return "Kotlin random: " +
+            KRandom.nextInt(2) +
+            " Java random:" +
+            JRandom().nextInt(2) +
+            "."
+}
+
+
+;; Fungsi useDifferentRandomClasses menggunakan kelas Random dari paket kotlin.random untuk menghasilkan angka acak dalam rentang 0 hingga 1 
+;; dan kelas Random dari paket java.util untuk melakukan hal yang sama.
