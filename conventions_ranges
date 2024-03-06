@@ -1,0 +1,5 @@
+fun checkInRange(date: MyDate, first: MyDate, last: MyDate): Boolean {
+    return date in first..last
+}
+
+// Fungsi checkInRange memeriksa apakah tanggal date berada di antara tanggal first dan last.
